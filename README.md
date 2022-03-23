@@ -11,6 +11,18 @@ We take into account the following assumptions:
 - If the buying price is less than the region's median and sazonality. The selling price will be the buying price + 30%.
 
 # 3. Solution Plan
+**Step 1. Data Extraction:** download the daaset deom Kaggle site.
+
+**Step 2. Data Cleansing:** perform data cleansing by removing wrong dates and outliers.
+
+**Step 3. Data Transformation:** 
+- Group properties by zip code and calculate the median of the prices within the group.
+- Generate a "Status" column informing if it is recommended to buy the property or not.
+
+**Step 4. Exploratory Data Analysis:**
+
+
+
 
 
 # 4. Main Insights
