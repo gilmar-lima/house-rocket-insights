@@ -1,14 +1,25 @@
 # House Rocket Insights
 
 # 1. Business Problem
-House Rocket is a real estate company trying to figure out a way to improve the process by which properties are negotiated, our main goal is to provide insights that are relevant for the business and figure out which are the best buying opportunities.   
+House Rocket is a real estate company trying to figure out a way to improve the process by which properties are 
+negotiated, our main goal is to provide insights that are relevant for the business and figure out which are the best 
+buying opportunities.   
 # 2. Business Assumptions
 We take into account the following assumptions:
 
-**Good negotiantion conditions**:
-- If the selling price is greater than the region's median and sazonality. The selling price will be the buying price + 10%.
+**Properties recommendation conditions**:
+- Properties in which the price is less than the region's median and it is in good conditions, will be considered good 
+buying opportunities.
+- Good condition is considered equal 5.
 
-- If the buying price is less than the region's median and sazonality. The selling price will be the buying price + 30%.
+
+**Selling price calculation conditions**:
+- If the price is greater than the region's median. The selling price will be the buying price + 10%.
+
+- If the price is less than the region's median. The selling price will be the buying price + 30%.
+
+**Outliers**:
+- We are considering houses with prive above 500 000 000 as an outlier.
 
 # 3. Solution Plan
 **Step 1. Data Extraction:** download the dataset from Kaggle site.
@@ -17,9 +28,11 @@ We take into account the following assumptions:
 
 **Step 3. Data Transformation:** 
 - Group properties by zip code and calculate the median of the prices within the group.
-- Generate a "Status" column informing if it is recommended to buy the property or not.
+- Generate a "status" column informing if it is recommended to buy the property or not.
+- Generate a "selling_price" with the selling price calculated.
 
-**Step 4. Exploratory Data Analysis:** perform the exploratory data analysis in order to find insights that are relevant for the business.
+**Step 4. Exploratory Data Analysis:** perform the exploratory data analysis in order to find insights that are 
+relevant for the business.
 
 **Step 5. Create Visualizations:** 
 - Create visualizations on streamlit for each of the hypothesis.
