@@ -51,6 +51,8 @@ relevant for the business.
 
 **Hypothesis 3:** Properties without basement are 50% bigger in lot size than ones without basement.
 
+**True:** Properties without basement are 20% higher on average.
+
 **Hypothesis 4:** The rising rate on price of properties year over year is 10%.
 
 **Hypothesis 5:** Properties with 3 bathrooms have a rising price month over month of 15%
