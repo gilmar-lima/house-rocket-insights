@@ -37,12 +37,17 @@ relevant for the business.
 **Step 5. Create Visualizations:** 
 - Create visualizations on streamlit for each of the hypothesis.
 - Create table with buying recommendations.
-- Create table with selling recommendations and prices.
+- Create table with selling prices recommendations.
 
 # 4. Main Insights
 **Hypothesis 1:** Properties with view to water are 30% more expensive.
 
+ **False**: As observed, properties with water front are more than 30% more expensive.
+
+
 **Hypothesis 2:** Properties with construction date less than 1955 are 50% cheaper on average.
+
+ **False**: As observed, properties with construction date before 1955 have the same value as newer properties.
 
 **Hypothesis 3:** Properties without basement are 50% bigger in lot size than ones without basement.
 
