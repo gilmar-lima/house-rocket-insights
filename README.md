@@ -20,7 +20,6 @@ buying opportunities.
 
 **Outliers**:
 - We are considering houses with prive above 500 000 000 as an outlier.
-
 # 3. Solution Plan
 **Step 1. Data Extraction:** download the dataset from Kaggle site.
 
@@ -44,18 +43,21 @@ relevant for the business.
 
  **False**: As observed, properties with water front are more than 30% more expensive.
 
-
 **Hypothesis 2:** Properties with construction date less than 1955 are 50% cheaper on average.
 
  **False**: As observed, properties with construction date before 1955 have the same value as newer properties.
 
 **Hypothesis 3:** Properties without basement are 50% bigger in lot size than ones without basement.
 
-**True:** Properties without basement are 20% higher on average.
+**False:** Properties without basement are 20% bigger on average.
 
 **Hypothesis 4:** The rising rate on price of properties year over year is 10%.
 
+**False:** As observed, the rising rate year over year is less than 10%.
+
 **Hypothesis 5:** Properties with 3 bathrooms have a rising price month over month of 15%
+
+**False:** As observed, the rate of prices is not constant.
 
 # 5. Business Results
 # 6. Conclusion
