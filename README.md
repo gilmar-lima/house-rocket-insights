@@ -63,5 +63,6 @@ All the hypothesis calculations can be checked on this [notebook](https://github
 **False:** As observed, the rate of prices is not constant.
 
 # 5. Business Results
+With the recommedations provided, the firm have a better way to negotiate properties resulting in greater profits. 
 # 6. Conclusion
 
