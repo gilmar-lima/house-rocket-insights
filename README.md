@@ -40,7 +40,7 @@ relevant for the business.
 
 # 4. Main Insights
 
-All the hypothesis can be checked on this [notebook](https://github.com/gilmar-lima/house-rocket-insights/blob/main/notebook.ipynb).
+All the hypothesis calculations can be checked on this [notebook](https://github.com/gilmar-lima/house-rocket-insights/blob/main/notebook.ipynb).
 
 **Hypothesis 1:** Properties with view to water are 30% more expensive.
 
